@@ -4,6 +4,7 @@ import './bootstrap.min.css';
 import Hero from './components/Hero';
 import Turn from './components/Turn';
 import Continue from './components/Continue';
+import Footer from './components/Footer';
 
 class MusicianQuiz extends Component {
   render() {
@@ -12,6 +13,7 @@ class MusicianQuiz extends Component {
         <Hero/>
         <Turn/>
         <Continue/>
+        <Footer/>
       </div>
     );
   }
