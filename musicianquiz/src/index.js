@@ -9,7 +9,11 @@ const artists = [
         name: 'Whitney Houston', 
         imageUrl: '/images/whitney.jpg',
         imageSource: 'Wikipedia',
-        albums: ['My Love is your Love']
+        albums: [
+            'My Love is your Love',
+            '21',
+            'The Gold Collection'
+        ]
     },
     {
         name: 'Amy Winehouse', 
