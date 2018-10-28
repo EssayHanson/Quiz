@@ -4,7 +4,36 @@ import './index.css';
 import MusicianQuiz from './MusicianQuiz';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<MusicianQuiz />, document.getElementById('root'));
+const artists = [
+    {
+        name: 'Kanye West', 
+        imageUrl: '../../public/images/whitney.jpg',
+        imageSource: 'Google images',
+        albums: ['The College Dropout']
+    },
+    {
+        name: 'Amy Winehouse', 
+        imageUrl: '../../public/images/Amy.jpg',
+        imageSource: 'Google images',
+        albums: ['Back to Black']
+    },
+    {
+        name: 'Whitney Houston', 
+        imageUrl: '../../public/images/whitney.jpg',
+        imageSource: 'Google images',
+        albums: ['Bodyguard']
+    }
+];
+
+const state = {
+
+    turnData: {
+        artist: artists[0],
+        albums: artists[0].albums
+    }
+};
+
+ReactDOM.render(<MusicianQuiz {...state} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
