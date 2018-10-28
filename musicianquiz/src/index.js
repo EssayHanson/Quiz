@@ -6,22 +6,16 @@ import * as serviceWorker from './serviceWorker';
 
 const artists = [
     {
-        name: 'Kanye West', 
-        imageUrl: '../../public/images/whitney.jpg',
-        imageSource: 'Google images',
-        albums: ['The College Dropout']
+        name: 'Whitney Houston', 
+        imageUrl: '/images/whitney.jpg',
+        imageSource: 'Wikipedia',
+        albums: ['My Love is your Love']
     },
     {
         name: 'Amy Winehouse', 
-        imageUrl: '../../public/images/Amy.jpg',
-        imageSource: 'Google images',
+        imageUrl: '/images/amy.jpg',
+        imageSource: 'Wikipedia',
         albums: ['Back to Black']
-    },
-    {
-        name: 'Whitney Houston', 
-        imageUrl: '../../public/images/whitney.jpg',
-        imageSource: 'Google images',
-        albums: ['Bodyguard']
     }
 ];
 
