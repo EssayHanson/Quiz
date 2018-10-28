@@ -22,6 +22,19 @@
   color: #61dafb;
 }
 
+.turn > div {
+  height: 400px;
+}
+
+.turn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.artistimage {
+  max-height: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
